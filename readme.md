@@ -6,6 +6,7 @@ But I used it for different function testing.
 
 Current working functionality:
 ------------------------------
+
 Connecting to MongoDB using Mongoose.
 Querying MongoDB, and displaying items through ejs.
 Saving items to DB.
