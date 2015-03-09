@@ -1,25 +1,24 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'forever' ]
 2 info using npm@2.0.2
 3 info using node@v0.10.29
-4 error install Couldn't read dependencies
-5 verbose stack Error: Invalid name: "ToDoList with MongoDB-Express-NodeJS"
-5 verbose stack     at ensureValidName (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:315:15)
-5 verbose stack     at Object.module.exports.fixNameField (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:204:5)
-5 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:30:38
-5 verbose stack     at Array.forEach (native)
-5 verbose stack     at normalize (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:29:15)
-5 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:342:33)
-5 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:126:33)
-5 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:266:40
-5 verbose stack     at evalmachine.<anonymous>:271:14
-5 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
-6 verbose cwd /Users/naghceuz/Desktop/ToDoList-MongoDB-Express-NodeJS-master
-7 error Darwin 14.1.0
-8 error argv "node" "/usr/local/bin/npm" "install"
-9 error node v0.10.29
-10 error npm  v2.0.2
-11 error Invalid name: "ToDoList with MongoDB-Express-NodeJS"
-12 error If you need help, you may report this error at:
-12 error     <http://github.com/npm/npm/issues>
-13 verbose exit [ 1, true ]
+4 verbose stack Error: Invalid name: "ToDoList with MongoDB-Express-NodeJS"
+4 verbose stack     at ensureValidName (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:315:15)
+4 verbose stack     at Object.module.exports.fixNameField (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:204:5)
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:30:38
+4 verbose stack     at Array.forEach (native)
+4 verbose stack     at normalize (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:29:15)
+4 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:342:33)
+4 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:126:33)
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:331:40
+4 verbose stack     at evalmachine.<anonymous>:271:14
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+5 verbose cwd /Users/naghceuz/Desktop/ToDoListEC2
+6 error Darwin 14.1.0
+7 error argv "node" "/usr/local/bin/npm" "install" "forever"
+8 error node v0.10.29
+9 error npm  v2.0.2
+10 error Invalid name: "ToDoList with MongoDB-Express-NodeJS"
+11 error If you need help, you may report this error at:
+11 error     <http://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
